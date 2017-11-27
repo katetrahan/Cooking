@@ -1,9 +1,11 @@
-var myConverting = function(celsius, fahrenheit)
+var myVolume = function(myLiters, myGallons)
 {
-return (celsius, fahrenheit, )
-}
+return (myGallons, myLiters);
+};
 
-var myCelsius= parseInt(prompt("fahrenheit"));
+var myGallons= 3.78541;
+var myLiters= parseInt(prompt("number of gallons"));
 
-var result= myCelsius+32
+var result= myLiters*myGallons
+
 alert(result)
